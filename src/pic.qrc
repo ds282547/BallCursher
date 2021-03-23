@@ -1,0 +1,27 @@
+<RCC>
+    <qresource prefix="/balls">
+        <file>pic/bb.png</file>
+        <file>pic/gb.png</file>
+        <file>pic/ob.png</file>
+        <file>pic/rb.png</file>
+        <file>pic/bbb.png</file>
+        <file>pic/bgb.png</file>
+        <file>pic/bob.png</file>
+        <file>pic/brb.png</file>
+        <file>pic/hbb.png</file>
+        <file>pic/hgb.png</file>
+        <file>pic/hob.png</file>
+        <file>pic/hrb.png</file>
+        <file>pic/sbb.png</file>
+        <file>pic/sgb.png</file>
+        <file>pic/sob.png</file>
+        <file>pic/srb.png</file>
+        <file>pic/vbb.png</file>
+        <file>pic/vgb.png</file>
+        <file>pic/vob.png</file>
+        <file>pic/vrb.png</file>
+    </qresource>
+    <qresource prefix="/bg">
+        <file>pic/bg.png</file>
+    </qresource>
+</RCC>

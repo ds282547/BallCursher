@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>564</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>500</width>
+    <height>564</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>500</width>
+    <height>564</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Ball Crusher</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget {
+	background-color:rgb(37, 37, 58);
+}
+QLabel {
+	font: 75 12pt &quot;Arial Black&quot;;
+color:rgb(255, 234, 0);
+}</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>370</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	
+	font: 75 12pt &quot;Arial&quot;;
+border-style:outset;
+border-width:2px;
+border-color:rgb(255, 234, 0);
+border-radius:7px;
+background-color:none;
+color:rgb(255, 234, 0);
+}
+QPushButton:hover {
+border-color:rgb(255, 179, 0);
+color:rgb(255, 179, 0);
+background-color:rgba(255, 224, 46,45);
+}
+QPushButton:pressed {
+border-color:rgb(205, 179, 0);
+color:rgb(205, 179, 0);
+}</string>
+    </property>
+    <property name="text">
+     <string>NEW GAME</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>501</width>
+      <height>571</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pic.qrc">:/bg/pic/bg.png</pixmap>
+    </property>
+   </widget>
+   <zorder>label</zorder>
+   <zorder>pushButton</zorder>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="pic.qrc"/>
+ </resources>
+ <connections/>
+</ui>
